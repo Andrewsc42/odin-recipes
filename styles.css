@@ -1,8 +1,17 @@
-div {
-    color: white;
-    background-color: black;
+h1 {
+    text-align: center;
   }
   
-  p {
-    color: red;
+p {
+  color: red;
+}
+  
+  
+div {
+    color: black;
+    background-color: burlywood;
+    align-content: center;
+    padding: 50px;
+    
   }
+
