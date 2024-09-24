@@ -1,6 +1,7 @@
 h1 {
+    display: flex;
     background-color: lightslategray;
-    text-align: center;
+    justify-content: center;
   }
  
 h3 {
@@ -15,6 +16,24 @@ p {
 img {
   display: block;
   margin: auto;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  padding: .5rem;
+  border: 1px solid red;
+}
+
+li::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: gray;
+  margin-right: .5rem;
 }
 
  #recipebutton {
@@ -32,23 +51,38 @@ img {
   padding: 10px;
  }
 
+
 .ingredientslist {
-  display: block;
-  margin: auto;
-  text-align: center;
-  padding: 10px;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  padding: .5rem;
+  border: 1px solid black;
+ }
+
+ .stepbystep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  padding: .5rem;
+  border: 1px solid black;
+ }
+
+ .layerlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  padding: .5rem;
+  border: 1px solid black;
  }
 
  .recipedescription {
   background-color: yellow;
+  border: 1px solid red;
  }
 
- .layerlist {
-  display: block;
-  margin: auto;
-  text-align: center;
-  
- }
 
  
