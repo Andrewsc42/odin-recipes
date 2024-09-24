@@ -1,17 +1,54 @@
 h1 {
+    background-color: lightslategray;
     text-align: center;
   }
+ 
+h3 {
+  background-color: burlywood;
+  text-align: center;
+}  
   
 p {
   color: red;
 }
-  
-  
-div {
-    color: black;
-    background-color: burlywood;
-    align-content: center;
-    padding: 50px;
-    
-  }
 
+img {
+  display: block;
+  margin: auto;
+}
+
+ #recipebutton {
+  display: block;
+  margin: auto;
+  border: auto;
+  padding: auto;
+  text-emphasis-color: red;
+  
+}
+
+#homebutton {
+  display: block;
+  margin: auto;
+  padding: 10px;
+ }
+
+.ingredientslist {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+ .recipedescription {
+  background-color: yellow;
+ }
+
+ .layerlist {
+  display: block;
+  margin: auto;
+  text-align: center;
+  
+ }
+
+ 
